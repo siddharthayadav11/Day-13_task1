@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC BUS PASS</title>
+</head>
+<body>
+    <center><h1> Telangana State Road Transport Cooperation</h1></center>
+    <center><h3> General Bus Pass Application </h3></center>
+    <form action="./Register.html" method="post">
+        <fieldset>
+            <legend><b> Applicant Details</b></legend>
+            <dl>
+                <dd>
+                    <label for="name"> Name:</label>
+                    <input type="text" name="name" id="name" required autocomplete="off">
+                    <label for="fname"> Fathers name </label>
+                    <input type="text" name="fname" id="fname" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="dob"> Date Of Birth</label>
+                    <input type="date" name="dob" id="dob" required autocomplete="off">
+                    <label for=""> Gender </label>
+                    <input type="radio" name="gender" id="male" value="Male" required autocomplete="off">
+                    <label for="male"> MALE</label>
+                    <input type="radio" name="gender" id="female" value="Female" required autocomplete="off">
+                    <label for="female"> FEMALE</label>
+                </dd>
+                <dd>
+                    <label for="age"> AGE </label>
+                    <input type="number" name="age" id="age" required autocomplete="off">
+                    <label for="aadhar"> Aadhar Number </label>
+                    <input type="number" name="aadhar" id="aadhar" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="phno"> Mobile Number</label>
+                    <input type="number" name="phno" id="phno" required autocomplete="off" max="10" min="10">
+                    <label for="mail"></label>
+                    <input type="email" name="mail" id="mail" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="photo">Photo</label>
+                    <input type="file" name="photo" id="photo" required autocomplete="off">
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend><b> Residential Adress Details </b></legend>
+            <dl>
+                <dd>
+                    <label for="ad"> Applicant Address:</label>
+                    <input type="text" name="ad" id="ad" required autocomplete="off">
+                    <label for="district"> District </label>
+                    <input type="text" name="district" id="district" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="mandal"> Mandal </label>
+                    <input type="text" name="mandal" id="mandal" required autocomplete="off">
+                    <label for="village"> Village </label>
+                    <input type="text" name="village" id="village" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="pincode"> Pincode </label>
+                    <input type="number" name="pincode" id="pincode" required autocomplete="off" max="6" min="6">
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend><b> Pass Type and Details </b></legend>
+            <dl>
+                <dd>
+                    <label for="city"> City:</label>
+                    <input type="text" name="city" id="city" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="passtype"> Passtype </label>
+                    <input type="text" name="passtype" id="passtype" required autocomplete="off">
+                </dd>
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend><b> Mode of Payment & Pass collection </b></legend>
+            <dl>
+                <dd>
+                    <label for="payment mode"> Payment Mode:</label>
+                    <input type="text" name="payment mode" id="payment mode" required autocomplete="off">
+                </dd>
+                <dd>
+                    <label for="pass delivery mode"> Pass Delivery mode </label>
+                    <input type="text" name="pass delivery mode" id="pass delivery mode" required autocomplete="off">
+                </dd>
+            </dl>
+        </fieldset>
+        <center>
+            <input type="submit" value="Submit">
+        </center>
+        
+    </form>
+</body>
+</html>
